@@ -13,6 +13,7 @@ I encountered using Java 8 and Tomcat version less that 8.  This was tested on t
 
 * version 7.0.29 - Java 8 problem
 * version 7.0.34 - Java 8 problem
+* version 7.0.69 - worked just fine
 * version 8.0.18 - worked just fine
 
 Once deployed the following URI are available:
