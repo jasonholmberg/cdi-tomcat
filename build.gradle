@@ -1,0 +1,17 @@
+// Apply the java plugin to add support for Java
+apply plugin: 'war'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+  jcenter()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+  compile 'org.slf4j:slf4j-api:1.7.21'
+	providedCompile 'javax:javaee-web-api:7.0'
+	providedCompile 'javax.enterprise:cdi-api:1.2'
+	runtime 'org.jboss.weld.servlet:weld-servlet:2.2.6.Final'
+  testCompile 'junit:junit:4.12'
+}
+
