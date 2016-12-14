@@ -19,3 +19,5 @@ Once deployed the following URI are available:
 
 * http://localhost:8080/cdi-tomcat
 * http://localhost:8080/cdi-tomcat/demo - This servlet uses CDI to inject a service that injects a POJO.  The injected service is @RequestScoped and will display a new date value with each request.
+
+This implementation is adapted from: https://musingsinjava.wordpress.com/2014/11/02/enabling-jsf-2-2-and-cdi-1-2-on-tomcat-8/
